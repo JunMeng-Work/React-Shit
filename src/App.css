@@ -1,0 +1,253 @@
+body {
+  margin: 0px;
+  width: 100%;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+/* __________ HEADER __________ */
+.header{
+  background-color: rgb(223, 191, 150);
+  height: 60px
+}
+.hMenu{
+  float: right;
+  margin: 11px 20px;
+}
+.hNews{
+  background-color: rgb(78, 70, 60);
+  color: white;
+  float: right;
+  clear: right;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+}
+@keyframes movingHeader{
+  from   {left:-800px; }
+  to  {left: 1900px; }
+}
+.hNews ul{
+  display: inline-block;
+  position: relative;
+  margin:0px;
+  animation-name: movingHeader;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+.hNews li{
+  display: inline;
+  margin: 20px ;
+  font-size: 20px;
+}
+.username{
+  padding-right: 5px;
+}
+
+/* __________ Sidebar __________ */
+.sideBar{
+  background-color: rgb(214, 134, 105);
+  width: 300px;
+  height: 100vh;
+  font-size: 30px;
+  padding: 20px 0px;
+  float: left;
+}
+.sideBar li {
+  list-style: none;
+  padding: 10px
+}
+.sideBar a{
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* __________ Login Input Box __________ */
+.loginInputBox{
+  position: relative;
+  height: 300px;
+  width: 250px;
+  background-color: rgb(66, 118, 148);
+  margin:auto;
+  top:300px;
+}
+.inputBox{
+  height: 60px;
+  width: 200px;
+  font-size: 30px;
+  margin: 15px 20px;
+}
+#loginBtnPage{
+  height:60px;
+  width:100px;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  top: 200px;
+  left: 47.5%;
+}
+/* ___________ PAGE 1 2 _______________ */
+.subPage1 {
+  font-size: 100px;
+  margin: 50px; 
+}
+
+.subPage2 {
+  font-size: 100px;
+  margin: 50px;
+}
+/* ___________ Container ___________ */
+.container{
+  position: absolute;
+  background-color: blanchedalmond;
+  height: 100vh;
+  width: 1580px;
+  left: 310px;
+  top: 80px;
+}
+/* _________ func __________*/
+.func{
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  position: relative;
+  height: 130px;
+  width: 130px;
+  left:10px;
+}
+.applyLeave{
+  display: inline;
+  color: white;
+  position: absolute;
+  left: 10px;
+  top:6px;
+  font-size: 20px;
+}
+.cancelLeave{
+  display: inline;
+  color: white;
+  position: absolute;
+  left: 10px;
+  top:6px;
+  font-size: 20px;
+}
+.myCalendar{
+  display: inline;
+  color: white;
+  position: absolute;
+  left: 10px;
+  top:6px;
+  font-size: 20px;
+}
+
+/* _________ Main function __________*/
+.mainFunc img{
+  height: 130px;
+  width: 130px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.mainFunc img {
+  box-shadow: -3px -3px 10px rgba(128, 128, 128, 0.671);
+}
+.mainFunc img:hover{
+  box-shadow: 5px 5px 20px grey;
+}
+/* _________ Part 1 __________*/
+.part1{
+  width: 100%;
+}
+.p1content{
+  position: relative;
+  left: 0px;
+  display: inline-block;
+  margin: 20px;
+  height:200px;
+  width: 480px;
+  background-color: tomato;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 110px;
+  color: white;
+  font-size: 24px;
+}
+.circle{
+  position: relative;
+  top:20px;
+  background-color: rgb(78, 104, 101);
+  height: 110px;
+  width: 110px;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid turquoise;
+}
+.leavesName{
+  position: relative;
+  top: 44px;
+  height: 35px;
+  left: 1px;
+  width: 478px;
+  background-color: rgba(165, 177, 165, 0.534);
+  line-height: 35px;
+  border-radius: 5px;
+}
+/* ______________ Part 2 _______________*/
+.part2{
+  width: 1000px;
+  background-color: rgb(250, 196, 146);
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  position: relative;
+  padding: 10px;
+  left: 10px;
+  margin: 10px;
+  display: inline-block;
+  height: 150px;
+}
+.part2Head{
+  display: block;
+  width: 100%;
+}
+.img4{
+  display: block;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+.attendance{
+  text-align: left;
+  position: relative;
+  font-size: 30px;
+  width: 270px;
+  display: block;
+  left: 10px;
+  float: left;
+  top: 10px;
+}
+.img7{
+  position: relative;
+  margin: 10px 150px 0 0;
+  float: right;
+}
+.part2 td, .part2 th {
+  border: 1px solid rgb(27, 16, 16);
+  padding: 8px;
+  border-collapse: collapse;
+  text-align: center;
+}
+.part2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-collapse: collapse;
+  background-color: #4CAF50;
+  color: white;
+}
+table{
+  clear: both;
+}
